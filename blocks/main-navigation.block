@@ -18,6 +18,7 @@
                 <li class="external-link">
                   <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
                 </li>
+                <pre>{@|json-pretty}</pre>
               {.end}
             {.end}
           </ul>
