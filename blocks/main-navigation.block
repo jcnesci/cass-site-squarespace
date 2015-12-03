@@ -18,8 +18,6 @@
                 <li class="external-link">
                   <a href="{url}"{.section newWindow} target="_blank"{.end}>{title}</a>
                 </li>
-                <pre>{url|json-pretty}</pre>
-                <script>console.log({url|json-pretty})</script>
               {.end}
             {.end}
           </ul>
@@ -67,3 +65,5 @@
 
 </nav>
 {.end}
+<pre>{@|json-pretty}</pre>
+<script>console.log({@|json-pretty})</script>
