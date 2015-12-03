@@ -65,5 +65,5 @@
 
 </nav>
 {.end}
-//<pre>{items|json-pretty}</pre>
-//<script>console.log({@|json-pretty})</script>
+<!--<pre>{items|json-pretty}</pre>-->
+<!--<script>console.log({@|json-pretty})</script>-->
