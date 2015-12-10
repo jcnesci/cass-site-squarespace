@@ -23,7 +23,8 @@
 							<a href="/" title="{siteTitle}" role="bookmark" data-content-field="site-title">
 							  <!-- {.if logoImageUrl}<span class="placed-logo-image"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></span> -->
 							  <!-- {.or}<span class="placed-site-title">{siteTitle}</span>{.end} -->
-							  <span class="placed-site-title">cassandra chloé</span>
+							  <span class="placed-site-title">cassandra </span>
+							  <span style="font-family:times">chloé</span>
 							</a>
 						</h1>
 						{.section siteTagLine}<p class="site-tagline" data-content-field="site-tagline">{@}</p>{.end}
