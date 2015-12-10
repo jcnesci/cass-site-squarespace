@@ -19,7 +19,7 @@
 
 					<div id="headerInfo">
 						{.section website}
-						<h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}"><h1>BOOH</h1>h1>
+						<h1 class="logo{.section logoImageUrl} image{.or} site-title{.end}"><h1>BOOH</h1>
 							<a href="/" title="{siteTitle}" role="bookmark" data-content-field="site-title">
 							  {.if logoImageUrl}<span class="placed-logo-image"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></span>
 							  {.or}<span class="placed-site-title">{siteTitle}</span>{.end}
