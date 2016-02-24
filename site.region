@@ -51,7 +51,7 @@
 					  </div>
 
 					  <!-- DEV START : tryig to get social icons next to main navigation at top of site -->
-					  {squarespace-footers}
+					  {@|social-button}
 					  <!-- DEV END -->
 
 						<!-- CATEGORY NAV -->
