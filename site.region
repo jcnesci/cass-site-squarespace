@@ -55,9 +55,9 @@
 					  <!-- DEV END -->
 					     {.section website}
 					     		<!-- DEV: Trying to put mainNav and social buttons together... -->
-					     		<div id="navBlock" role="navigation">
+					     		<span id="navBlock" role="navigation">
 										<squarespace:navigation navigationId="mainNav" template="main-navigation" />
-								  </div>
+								  </span>
 					  		  {.if socialAccounts}
 					  		    <div id="sqs-social" data-content-field="connected-accounts">
 					  		      {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
