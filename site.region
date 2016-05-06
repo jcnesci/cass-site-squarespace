@@ -53,6 +53,13 @@
 					  <!-- DEV START : tryig to get social icons next to main navigation at top of site -->
 					  {@|social-button}
 					  <!-- DEV END -->
+					     {.section website}
+					  		  {.if socialAccounts}
+					  		    <div id="sqs-social" data-content-field="connected-accounts">
+					  		      {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
+					  		    </div>
+					  		  {.end}
+					  		{.end}
 
 						<!-- CATEGORY NAV -->
 						{.section collection}{.equal? typeName "products"}{.section categories}
@@ -84,13 +91,13 @@
 
 			<div id="footerWrapper">
 				<footer id="footer">
-			   {.section website}
+			   <!-- {.section website}
 					  {.if socialAccounts}
 					    <div id="sqs-social" data-content-field="connected-accounts">
 					      {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
 					    </div>
 					  {.end}
-					{.end}
+					{.end} -->
 					<squarespace:block-field id="footerBlock" columns="12" label="Footer Content" />
 				</footer>
 			</div><!-- / footerWrapper -->
