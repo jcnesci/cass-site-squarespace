@@ -65,7 +65,8 @@
 						{.section collection}{.equal? typeName "products"}{.section categories}
 						<div id="categoryNav" role="navigation">
 						  <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
-						  <label for="categoryNavToggle" class="category-nav-toggle-label" onclick>Hello</label>
+						  <!-- <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label> -->
+						  <label class="category-nav-toggle-label" onclick>Hello</label>
 						  <nav class="category-nav">
 						    <ul class="nav category-nav-links">
 						      <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
