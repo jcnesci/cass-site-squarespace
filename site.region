@@ -46,14 +46,15 @@
 						<div class="site-description" data-content-field="site-description">{@}</div>
 						{.end}
 						{.end}
-						<div id="navBlock" role="navigation">
+						<!-- <div id="navBlock" role="navigation">
 							<squarespace:navigation navigationId="mainNav" template="main-navigation" />
-					  </div>
+					  </div> -->
 
 					  <!-- DEV START : tryig to get social icons next to main navigation at top of site -->
 					  {@|social-button}
 					  <!-- DEV END -->
 					     {.section website}
+					     		<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 					  		  {.if socialAccounts}
 					  		    <div id="sqs-social" data-content-field="connected-accounts">
 					  		      {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
@@ -65,8 +66,7 @@
 						{.section collection}{.equal? typeName "products"}{.section categories}
 						<div id="categoryNav" role="navigation">
 						  <input type="checkbox" name="category-nav-toggle" id="categoryNavToggle" class="category-nav-toggle hidden" />
-						  <!-- <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label> -->
-						  <label class="category-nav-toggle-label" onclick>Hello</label>
+						  <label for="categoryNavToggle" class="category-nav-toggle-label" onclick></label>
 						  <nav class="category-nav">
 						    <ul class="nav category-nav-links">
 						      <li class="filter"><a>Filter{.if categoryFilter}: {categoryFilter}{.end}</a></li>
