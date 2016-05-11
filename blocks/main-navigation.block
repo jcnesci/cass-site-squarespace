@@ -5,7 +5,8 @@
   {.repeated section @}
     {.folder?}
       <li class="{collection.typeLabel}-collection{.section active} active-link{.end}{.if collection.folder} folder{.end}">
-        <a aria-haspopup="true" href="#" onClick="return false;" class="{.if folderActive}active-folder{.end}">{collection.navigationTitle}</a>
+        <!-- <a aria-haspopup="true" href="#" onClick="return false;" class="{.if folderActive}active-folder{.end}">{collection.navigationTitle}</a> -->
+        <a aria-haspopup="true" href="#" onClick="return false;" class="{.if folderActive}active-folder{.end}">...</a>
         <div class="subnav">
           <ul>
             {.repeated section items}
