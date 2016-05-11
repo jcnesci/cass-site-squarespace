@@ -24,7 +24,8 @@
 							  <!-- {.if logoImageUrl}<span class="placed-logo-image"><img src="{logoImageUrl}?format=1500w" alt="{siteTitle}" /></span> -->
 							  <!-- {.or}<span class="placed-site-title">{siteTitle}</span>{.end} -->
 							  <span class="placed-site-title">cassandra </span>
-							  <span style="font-family:times">chloé</span>
+							  <!-- <span style="font-family:times">chloé</span> -->
+							  <span style="font-weight:bold">chloé</span>
 							</a>
 						</h1>
 						{.section siteTagLine}<p class="site-tagline" data-content-field="site-tagline">{@}</p>{.end}
