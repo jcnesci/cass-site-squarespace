@@ -1,6 +1,16 @@
 {.section items}
 <nav class="main-nav" data-content-field="navigation">
 
+  
+  console.log("HELLO")
+
+  <div id="sqs-social" data-content-field="connected-accounts">
+    {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
+  </div>
+
+  <div style="border-top: 1px solid black;"></div>
+              
+
   <ul>
   {.repeated section @}
     {.folder?}

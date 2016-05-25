@@ -45,16 +45,14 @@
 						{.end}
 						{.end}
 						<div id="navBlock" role="navigation">
-						HELLO
-						console.log("HELLO")
-							
+						
 						  <!-- <div id="sqs-social" data-content-field="connected-accounts">
 						    {.repeated section socialAccounts}{.if profileUrl}<a href="{profileUrl}" target="_blank" title="{screenname}" class="social-{serviceName}"></a>{.end}{.end}
 						  </div> -->
 
-						  <div id="sqs-social" data-content-field="connected-accounts">
+						  <!-- <div id="sqs-social" data-content-field="connected-accounts">
 					      <a href="https://www.facebook.com/newsCassandraChloe/" target="_blank" title="Cassandra Chloé" class="social-facebook"></a><a href="http://www.youtube.com/c/CassandraChloéVlog" target="_blank" title="Cassandra Chloé" class="social-youtube"></a><a href="http://instagram.com/cassandrachlo" target="_blank" title="Cassandra Chloé" class="social-instagram"></a><a href="https://plus.google.com/112523340646130268003" target="_blank" title="Cassandra Chloé" class="social-google"></a><a href="https://twitter.com/CassandraChlo" target="_blank" title="Cassandra Chloé " class="social-twitter"></a><a href="https://www.pinterest.com/cassandrachlo/" target="_blank" title="Cassandra Chloé" class="social-pinterest"></a>
-					    </div>
+					    </div> -->
 							
 							<squarespace:navigation navigationId="mainNav" template="main-navigation" />
 					  </div>
